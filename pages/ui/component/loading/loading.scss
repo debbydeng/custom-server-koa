@@ -1,0 +1,21 @@
+/**
+ * desc:
+ * User: Renjian.Tang/trj8772@aliyun.com
+ * Date: 2018/8/1
+ * Time: 下午3:47
+ */
+#gym-loading{
+  position: fixed;
+  z-index: 999;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+  &.show{
+    dispaly:block;
+  }
+  &.hide{
+    display: none;
+  }
+}

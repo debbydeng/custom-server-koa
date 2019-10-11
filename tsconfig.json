@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl":".",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "jsx": "react",
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "lib": ["es7", "dom"],
+    "skipLibCheck": true,
+    "typeRoots": ["node","./node_modules/@types"],
+
+  }
+}

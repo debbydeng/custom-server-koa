@@ -1,0 +1,116 @@
+@import "../../style/common";
+
+.gym-table-wrap {
+    border: 1px solid #f0f3f2;
+    border-radius: 10px;
+    .gym-table-component{
+        font-size: 12px;
+        .ant-table-body{
+            border-radius: 0;
+            border: none;
+        }
+        .ant-table-thead{
+            &>tr>th{
+                padding: 0 10px;
+                height: 48px;
+                font-size: 12px;
+            }
+            &>tr>th:first-child{
+                padding-left: 30px;
+                border-top-left-radius: 10px;
+            }
+            &>tr>th:last-child{
+                border-top-right-radius: 10px;
+            }
+        }
+        .ant-table-tbody{
+            &>tr>td{
+                font-size: 12px;
+                height: 48px;
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+            &>tr>td:first-child{
+                padding-left: 30px;
+            }
+        }
+
+    }
+
+    .ant-table-small {
+        border: none;
+        th {
+            background-color: rgb(236, 239, 242) !important;
+        }
+
+        .ant-table-body {
+            margin: 0;
+        }
+    }
+
+    .gym-page-content {
+        padding:2px 20px 25px 20px;
+    }
+
+    .ant-table-content {
+      margin-bottom: 23px;
+    }
+}
+
+.gym-table-component{
+    .ant-table-body{
+        border: 1px solid #f0f3f2;
+        border-radius: 10px;
+        overflow: hidden;
+        border-bottom: none;
+        >table {
+          margin-bottom: 0px;
+        }
+    }
+    .ant-table-tbody, .ant-table-thead{
+        font-size: 12px;
+    }
+    .ant-table-thead{
+        &>tr>th{
+            padding: 0 10px;
+            height: 48px;
+            background: #ebf1f2;
+        }
+        &>tr>th:first-child{
+          padding-left: 30px;
+          border-top-left-radius: 10px;
+        }
+        &>tr>th:last-child{
+            border-top-right-radius: 10px;
+        }
+    }
+
+    .ant-table-tbody{
+        &>tr>td{
+            height: 48px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            word-break: break-all;
+        }
+        &>tr>td:first-child{
+          padding-left: 30px;
+        }
+    }
+
+
+    .gym-contract-info-wrap-content-no-data{
+        border:none;
+    }
+    .ant-table-placeholder{
+        border-bottom:none;
+    }
+    &-no-data{
+        border: 1px solid #f0f3f2;
+        border-radius:10px;
+        div.ant-table-body{
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border:none;
+        }
+    }
+}

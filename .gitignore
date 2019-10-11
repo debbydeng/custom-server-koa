@@ -1,0 +1,12 @@
+node_modules/
+
+.idea
+.idea/
+
+dist
+dist/
+
+*.gzip
+
+.cache
+.next
